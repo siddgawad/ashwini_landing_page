@@ -3,7 +3,7 @@ import ServiceCard from "../ui/ServiceCard";
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="py-20 px-4 bg-gradient-to-br from-slate-50 to-emerald-50">
+    <section id="services" className="py-20 px-4 bg-linear-to-br from-slate-50 to-emerald-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <div className="inline-block bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">

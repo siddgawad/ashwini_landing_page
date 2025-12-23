@@ -2,7 +2,7 @@ import { Building2, GraduationCap, Award, Users } from "lucide-react";
 
 export default function StatsBar() {
   return (
-    <section className="py-4 px-4 bg-gradient-to-r from-gray-900 to-slate-800">
+    <section className="py-4 px-4 bg-linear-to-r from-gray-900 to-slate-800">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-wrap justify-center items-center gap-8 text-white/80 text-sm">
           <div className="flex items-center gap-2">

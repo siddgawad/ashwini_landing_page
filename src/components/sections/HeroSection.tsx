@@ -2,7 +2,7 @@ import { Award, CheckCircle, Calendar, MessageCircle, Star } from "lucide-react"
 
 export default function HeroSection() {
   return (
-    <section className="pt-32 pb-20 px-4 sm:px-6 bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-600 relative overflow-hidden">
+    <section className="pt-32 pb-20 px-4 sm:px-6 bg-linear-to-br from-emerald-600 via-teal-600 to-cyan-600 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wOCI+PHBhdGggZD0iTTM2IDMwSDI0djEyaDEyVjMwem0wIDI0SDI0djEyaDEyVjU0em0yNCAwSDQ4djEyaDEyVjU0em0wLTI0SDQ4djEyaDEyVjMweiIvPjwvZz48L2c+PC9zdmc+')] opacity-20"></div>
 
       <div className="max-w-7xl mx-auto relative">
@@ -96,7 +96,7 @@ export default function HeroSection() {
                   "Online & offline consultations",
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start gap-3 text-white">
-                    <CheckCircle className="w-5 h-5 flex-shrink-0 mt-0.5 text-emerald-300" />
+                    <CheckCircle className="w-5 h-5 shrink-0 mt-0.5 text-emerald-300" />
                     <span className="text-base leading-relaxed">{item}</span>
                   </div>
                 ))}

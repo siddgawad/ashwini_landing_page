@@ -16,7 +16,7 @@ export default function TestimonialsSection() {
   }, []);
 
   return (
-    <section id="testimonials" className="py-20 px-4 bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-600">
+    <section id="testimonials" className="py-20 px-4 bg-linear-to-br from-emerald-600 via-teal-600 to-cyan-600">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <div className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold mb-4 border border-white/30">
@@ -40,7 +40,7 @@ export default function TestimonialsSection() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-xl p-5 border border-emerald-100 mb-4">
+          <div className="bg-linear-to-r from-emerald-50 to-teal-50 rounded-xl p-5 border border-emerald-100 mb-4">
             <div className="text-emerald-900 font-bold">{testimonials[activeTestimonial].condition}</div>
             <div className="text-emerald-700 font-semibold">{testimonials[activeTestimonial].result}</div>
           </div>

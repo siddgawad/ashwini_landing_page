@@ -3,7 +3,7 @@ import ContactForm from "../ui/ContactForm";
 
 export default function CTASection() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-emerald-600 via-teal-600 to-cyan-600 relative overflow-hidden">
+    <section className="py-20 px-4 bg-linear-to-br from-emerald-600 via-teal-600 to-cyan-600 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wOCI+PHBhdGggZD0iTTM2IDMwSDI0djEyaDEyVjMwem0wIDI0SDI0djEyaDEyVjU0em0yNCAwSDQ4djEyaDEyVjU0em0wLTI0SDQ4djEyaDEyVjMweiIvPjwvZz48L2c+PC9zdmc+')] opacity-20"></div>
 
       <div className="max-w-6xl mx-auto relative" id="contact">
@@ -108,7 +108,7 @@ export default function CTASection() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-yellow-400/20 to-orange-400/20 backdrop-blur-xl rounded-3xl p-6 border-2 border-yellow-400/30">
+            <div className="bg-linear-to-r from-yellow-400/20 to-orange-400/20 backdrop-blur-xl rounded-3xl p-6 border-2 border-yellow-400/30">
               <div className="flex items-center gap-3 mb-3">
                 <Star className="w-6 h-6 text-yellow-300 fill-yellow-300" />
                 <h4 className="text-white font-bold text-lg">Quick Response Guaranteed</h4>

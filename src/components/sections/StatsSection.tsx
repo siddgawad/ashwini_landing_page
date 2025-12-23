@@ -7,7 +7,7 @@ export default function StatsSection() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, idx) => (
             <div key={idx} className="text-center group hover:scale-105 transition-transform">
-              <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent mb-2">
+              <div className="text-5xl md:text-6xl font-bold bg-linear-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent mb-2">
                 {stat.number}
               </div>
               <div className="text-gray-900 font-bold text-lg mb-1">{stat.label}</div>

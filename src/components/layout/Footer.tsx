@@ -2,12 +2,12 @@ import { Phone, Mail, MapPin, Linkedin, Instagram, Facebook, Youtube } from "luc
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-slate-800 text-white py-12 px-4">
+    <footer className="bg-linear-to-r from-gray-900 to-slate-800 text-white py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-emerald-600 to-teal-700 rounded-xl flex items-center justify-center text-white font-bold">
+              <div className="w-12 h-12 bg-linear-to-br from-emerald-600 to-teal-700 rounded-xl flex items-center justify-center text-white font-bold">
                 AG
               </div>
               <div>

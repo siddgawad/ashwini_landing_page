@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3">
         <div className="flex justify-between items-center">
           <a href="#top" className="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer">
-            <div className="w-12 h-12 bg-gradient-to-br from-emerald-600 to-teal-700 rounded-xl flex items-center justify-center text-white font-bold shadow-lg">
+            <div className="w-12 h-12 bg-linear-to-br from-emerald-600 to-teal-700 rounded-xl flex items-center justify-center text-white font-bold shadow-lg">
               AG
             </div>
             <div>
@@ -35,7 +35,7 @@ export default function Navbar() {
             </a>
             <a
               href="#contact"
-              className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2.5 rounded-full hover:shadow-lg hover:scale-105 transition-all font-semibold text-sm"
+              className="bg-linear-to-r from-emerald-600 to-teal-600 text-white px-6 py-2.5 rounded-full hover:shadow-lg hover:scale-105 transition-all font-semibold text-sm"
             >
               Book Consultation
             </a>

@@ -3,7 +3,7 @@ import { faqs } from "../../lib/data/faqs";
 
 export default function FAQSection() {
   return (
-    <section id="faq" className="py-20 px-4 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="faq" className="py-20 px-4 bg-linear-to-br from-slate-50 to-blue-50">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <div className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
@@ -21,7 +21,7 @@ export default function FAQSection() {
             >
               <summary className="font-bold text-lg cursor-pointer flex items-center justify-between text-gray-900">
                 {faq.q}
-                <ChevronDown className="w-5 h-5 group-open:rotate-180 transition-transform flex-shrink-0 ml-4 text-emerald-600" />
+                <ChevronDown className="w-5 h-5 group-open:rotate-180 transition-transform shrink-0 ml-4 text-emerald-600" />
               </summary>
               <p className="mt-4 text-gray-700 leading-relaxed">{faq.a}</p>
             </details>

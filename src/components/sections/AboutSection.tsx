@@ -34,7 +34,7 @@ export default function AboutSection() {
             <div className="mt-8">
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-xl transition-all hover:scale-105"
+                className="inline-flex items-center gap-2 bg-linear-to-r from-emerald-600 to-teal-600 text-white px-8 py-4 rounded-full font-bold hover:shadow-xl transition-all hover:scale-105"
               >
                 Work With Me <ArrowRight className="w-5 h-5" />
               </a>
@@ -42,7 +42,7 @@ export default function AboutSection() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 border border-emerald-200">
+            <div className="bg-linear-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 border border-emerald-200">
               <h3 className="text-xl font-bold mb-4 text-gray-900 flex items-center gap-2">
                 <GraduationCap className="w-6 h-6 text-emerald-600" />
                 Education & Credentials
@@ -67,7 +67,7 @@ export default function AboutSection() {
                   key={idx}
                   className="bg-white rounded-xl p-5 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow"
                 >
-                  <div className="w-12 h-12 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-xl flex items-center justify-center text-white mb-3">
+                  <div className="w-12 h-12 bg-linear-to-br from-emerald-600 to-teal-600 rounded-xl flex items-center justify-center text-white mb-3">
                     {cred.icon}
                   </div>
                   <div className="font-bold text-gray-900 text-sm mb-1">{cred.title}</div>
@@ -77,7 +77,7 @@ export default function AboutSection() {
               ))}
             </div>
 
-            <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-6 border border-blue-200">
+            <div className="bg-linear-to-r from-blue-50 to-cyan-50 rounded-2xl p-6 border border-blue-200">
               <h3 className="text-lg font-bold mb-3 text-gray-900">Professional Certifications</h3>
               <div className="space-y-2 text-sm text-gray-700">
                 {[
