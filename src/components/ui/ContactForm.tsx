@@ -89,7 +89,7 @@ export default function ContactForm() {
 
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-4 rounded-xl font-bold hover:shadow-xl transition-all hover:scale-105 flex items-center justify-center gap-2"
+            className="w-full bg-linear-to-r from-emerald-600 to-teal-600 text-white py-4 rounded-xl font-bold hover:shadow-xl transition-all hover:scale-105 flex items-center justify-center gap-2"
           >
             <Send className="w-5 h-5" />
             Send Message
